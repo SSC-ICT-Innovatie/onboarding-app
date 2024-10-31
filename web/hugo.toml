@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Onboarding app'
+theme = 'hextra'
+disablePathToLower = true
+titleCaseStyle = 'none'
+
+BookLogo = 'LL-logo.png'
+
+[markup]
+  [markup.goldmark]  
+    [markup.goldmark.renderer]
+      unsafe = true
